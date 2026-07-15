@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real Estate Listings | Tuli Ma Property Brokers</title>
+  <meta name="description" content="Browse premium apartments, luxury estates, and plots for sale and rent in Lusaka, Zambia. Verified listings in Lilayi, Leopards Hill, Ibex Hill, and more.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar d-none d-md-block">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-7">
+          <span class="me-3"><i class="fa-solid fa-phone text-green-brand me-1"></i> <a href="tel:+260979894567">+260 979 894 567</a></span>
+          <span class="me-3"><i class="fa-solid fa-envelope text-green-brand me-1"></i> <a href="mailto:kaseyamc@gmail.com">kaseyamc@gmail.com</a></span>
+          <span><i class="fa-solid fa-location-dot text-green-brand me-1"></i> Lusaka, Zambia</span>
+        </div>
+        <div class="col-md-5 text-end">
+          <span class="me-2">Follow Us:</span>
+          <a href="https://www.facebook.com/TulimaPB" target="_blank" class="me-2"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/tulimapropertybrokers" target="_blank" class="me-2"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.tiktok.com/@tulimapropertybrokers" target="_blank" class="me-2"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="glass-header sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light py-3">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <img src="src/logo.png" alt="Tuli Ma Logo" height="42" class="me-2 rounded shadow-sm" referrerPolicy="no-referrer">
+          <span>Tuli Ma <span class="text-green-brand">Property</span></span>
+        </a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+            <li class="nav-item"><a class="nav-link active" href="listings.html">Listings</a></li>
+            <li class="nav-item"><a class="nav-link" href="commercial.html">Commercial</a></li>
+            <li class="nav-item"><a class="nav-link" href="residential.html">Residential</a></li>
+            <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="video.html">Video</a></li>
+            <li class="nav-item"><a class="nav-link" href="request-listing.html">Request Listing</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="page-header-bg" style="background-image: url('src/hero.jpg');"></div>
+    <div class="container page-header-content text-center">
+      <span class="text-green-brand fw-700 text-uppercase tracking-wider font-sans d-block mb-2">Our Portfolio</span>
+      <h1 class="display-4 font-sans fw-800 text-white mb-0">Current Property Listings</h1>
+    </div>
+  </section>
+
+  <!-- Filter & Listings Grid -->
+  <section class="py-5">
+    <div class="container">
+      
+      <!-- Filter Button Badges -->
+      <div class="d-flex flex-wrap justify-content-between align-items-center mb-4">
+        <div class="filter-btn-group">
+          <button class="filter-badge active" data-filter="all">All Properties</button>
+          <button class="filter-badge" data-filter="sale">For Sale</button>
+          <button class="filter-badge" data-filter="rent">For Rent</button>
+        </div>
+        <p class="text-muted small">Showing all 8 verified property listings</p>
+      </div>
+
+      <!-- Listings Grid -->
+      <div class="row g-4">
+        
+        <!-- Listing 1 -->
+        <div class="col-lg-4 col-md-6 property-listing-item" data-category="sale">
+          <div class="property-card">
+            <div class="property-img-wrapper">
+              <img src="src/property1.jpg" alt="Green Park Estate, Lilayi" class="property-img" referrerPolicy="no-referrer">
+              <div class="property-badge-group">
+                <span class="property-badge property-badge-status">For Sale</span>
+                <span class="property-badge property-badge-type">Luxury House</span>
+              </div>
+              <button class="property-favorite" data-id="prop1" aria-label="Favorite"><i class="fa-regular fa-heart"></i></button>
+            </div>
+            <div class="property-body">
+              <div class="property-price">USD $300,000</div>
+              <h3 class="property-title"><a href="property-details.html?id=1">LUXURY LIVING &amp; INVESTMENT – GREEN PARK ESTATE, LILAYI</a></h3>
+              <p class="property-location"><i class="fa-solid fa-location-dot me-2 text-green-brand"></i>Kafue Road, near Eureka Park, Lusaka</p>
+              <div class="property-features">
+                <span class="feature-item"><i class="fa-solid fa-bed"></i> 3 Bed</span>
+                <span class="feature-item"><i class="fa-solid fa-shower"></i> 2 Ensuite</span>
+                <span class="feature-item"><i class="fa-solid fa-sun"></i> 10kVA Solar</span>
+              </div>
+              <p class="text-muted small mt-2 mb-3 text-truncate">Own an exceptional fully furnished 3-bedroom luxury home inside Green Park Estate.</p>
+              <div class="property-actions">
+                <a href="property-details.html?id=1" class="btn btn-premium btn-premium-dark">Details</a>
+                <button class="btn btn-premium btn-premium-outline property-share-btn" data-id="1" aria-label="Share listing"><i class="fa-solid fa-share-nodes"></i></button>
+                <a href="https://wa.me/260979894567?text=Hi%20Tuli%20Ma,%20I'm%20interested%20in%20Green%20Park%20Estate%20Lilayi" target="_blank" class="btn btn-whatsapp"><i class="fa-brands fa-whatsapp"></i> Chat</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Listing 2 -->
+        <div class="col-lg-4 col-md-6 property-listing-item" data-category="sale">
+          <div class="property-card">
+            <div class="property-img-wrapper">
+              <img src="src/property2.jpg" alt="Emerald Park Plot" class="property-img" referrerPolicy="no-referrer">
+              <div class="property-badge-group">
+                <span class="property-badge property-badge-status">For Sale</span>
+                <span class="property-badge property-badge-type">Land Plot</span>
+              </div>
+              <button class="property-favorite" data-id="prop2" aria-label="Favorite"><i class="fa-regular fa-heart"></i></button>
+            </div>
+            <div class="property-body">
+              <div class="property-price">K450,000</div>
+              <h3 class="property-title"><a href="property-details.html?id=2">PRIME PLOT FOR SALE – EMERALD PARK</a></h3>
+              <p class="property-location"><i class="fa-solid fa-location-dot me-2 text-green-brand"></i>Leopards Hill Road, Lusaka</p>
+              <div class="property-features">
+                <span class="feature-item"><i class="fa-solid fa-ruler-combined"></i> 30m x 30m</span>
+                <span class="feature-item"><i class="fa-solid fa-road"></i> On Tarmac</span>
+                <span class="feature-item"><i class="fa-solid fa-tree"></i> Near Entrance</span>
+              </div>
+              <p class="text-muted small mt-2 mb-3 text-truncate">High-value residential plot near Leopards Hill estate gates. Perfect for family construction.</p>
+              <div class="property-actions">
+                <a href="property-details.html?id=2" class="btn btn-premium btn-premium-dark">Details</a>
+                <button class="btn btn-premium btn-premium-outline property-share-btn" data-id="2" aria-label="Share listing"><i class="fa-solid fa-share-nodes"></i></button>
+                <a href="https://wa.me/260979894567?text=Hi%20Tuli%20Ma,%20I'm%20interested%20in%20Emerald%20Park%20Plot" target="_blank" class="btn btn-whatsapp"><i class="fa-brands fa-whatsapp"></i> Chat</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Listing 3 -->
+        <div class="col-lg-4 col-md-6 property-listing-item" data-category="rent">
+          <div class="property-card">
+            <div class="property-img-wrapper">
+              <img src="src/property3.jpg" alt="Meanwood Ndeke Apartment" class="property-img" referrerPolicy="no-referrer">
+              <div class="property-badge-group">
+                <span class="property-badge property-badge-status">For Rent</span>
+                <span class="property-badge property-badge-type">Furnished Flat</span>
+              </div>
+              <button class="property-favorite" data-id="prop3" aria-label="Favorite"><i class="fa-regular fa-heart"></i></button>
+            </div>
+            <div class="property-body">
+              <div class="property-price">K18,000 <span class="fs-6 text-muted">/mo</span></div>
+              <h3 class="property-title"><a href="property-details.html?id=3">Fully Furnished 3 Bedroom Apartment</a></h3>
+              <p class="property-location"><i class="fa-solid fa-location-dot me-2 text-green-brand"></i>Meanwood Ndeke Phase 2, Airport Area</p>
+              <div class="property-features">
+                <span class="feature-item"><i class="fa-solid fa-bed"></i> 3 Bed</span>
+                <span class="feature-item"><i class="fa-solid fa-shower"></i> Master Ensuite</span>
+                <span class="feature-item"><i class="fa-solid fa-calendar-day"></i> K1,100 Daily</span>
+              </div>
+              <p class="text-muted small mt-2 mb-3 text-truncate">Executive furnished 3BR flat near Kenneth Kaunda International Airport.</p>
+              <div class="property-actions">
+                <a href="property-details.html?id=3" class="btn btn-premium btn-premium-dark">Details</a>
+                <button class="btn btn-premium btn-premium-outline property-share-btn" data-id="3" aria-label="Share listing"><i class="fa-solid fa-share-nodes"></i></button>
+                <a href="https://wa.me/260979894567?text=Hi%20Tuli%20Ma,%20I'm%20interested%20in%203BR%20Meanwood%20Ndeke" target="_blank" class="btn btn-whatsapp"><i class="fa-brands fa-whatsapp"></i> Chat</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Listing 4 -->
+        <div class="col-lg-4 col-md-6 property-listing-item" data-category="rent">
+          <div class="property-card">
+            <div class="property-img-wrapper">
+              <img src="src/property4.jpg" alt="Luxury Furnished Apartments" class="property-img" referrerPolicy="no-referrer">
+              <div class="property-badge-group">
+                <span class="property-badge property-badge-status">For Rent</span>
+                <span class="property-badge property-badge-type">Apartments</span>
+              </div>
+              <button class="property-favorite" data-id="prop4" aria-label="Favorite"><i class="fa-regular fa-heart"></i></button>
+            </div>
+            <div class="property-body">
+              <div class="property-price">From USD $2,500 <span class="fs-6 text-muted">/mo</span></div>
+              <h3 class="property-title"><a href="property-details.html?id=4">Luxury Furnished Executive Apartments</a></h3>
+              <p class="property-location"><i class="fa-solid fa-location-dot me-2 text-green-brand"></i>Lusaka Safe Zone District</p>
+              <div class="property-features">
+                <span class="feature-item"><i class="fa-solid fa-bed"></i> 2-3 Bed</span>
+                <span class="feature-item"><i class="fa-solid fa-couch"></i> Fully Furnished</span>
+                <span class="feature-item"><i class="fa-solid fa-clock"></i> Min 3 Months</span>
+              </div>
+              <p class="text-muted small mt-2 mb-3 text-truncate">Sophisticated corporate apartments starting from $2,500 monthly.</p>
+              <div class="property-actions">
+                <a href="property-details.html?id=4" class="btn btn-premium btn-premium-dark">Details</a>
+                <button class="btn btn-premium btn-premium-outline property-share-btn" data-id="4" aria-label="Share listing"><i class="fa-solid fa-share-nodes"></i></button>
+                <a href="https://wa.me/260979894567?text=Hi%20Tuli%20Ma,%20I'm%20interested%20in%20Luxury%20Furnished%20Apartments" target="_blank" class="btn btn-whatsapp"><i class="fa-brands fa-whatsapp"></i> Chat</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Listing 5 -->
+        <div class="col-lg-4 col-md-6 property-listing-item" data-category="rent">
+          <div class="property-card">
+            <div class="property-img-wrapper">
+              <img src="src/property5.jpg" alt="Meanwood Ibex Hill Apartments" class="property-img" referrerPolicy="no-referrer">
+              <div class="property-badge-group">
+                <span class="property-badge property-badge-status">For Rent</span>
+                <span class="property-badge property-badge-type">Apartment Block</span>
+              </div>
+              <button class="property-favorite" data-id="prop5" aria-label="Favorite"><i class="fa-regular fa-heart"></i></button>
+            </div>
+            <div class="property-body">
+              <div class="property-price">K20,000 - K25,000 <span class="fs-6 text-muted">/mo</span></div>
+              <h3 class="property-title"><a href="property-details.html?id=5">Meanwood Ibex Hill Apartments &amp; Car Rental</a></h3>
+              <p class="property-location"><i class="fa-solid fa-location-dot me-2 text-green-brand"></i>Ibex Hill, Lusaka</p>
+              <div class="property-features">
+                <span class="feature-item"><i class="fa-solid fa-bed"></i> 1, 2, 3 Bed</span>
+                <span class="feature-item"><i class="fa-solid fa-car"></i> Fortuner Add-on</span>
+                <span class="feature-item"><i class="fa-solid fa-user-ninja"></i> Chauffeur option</span>
+              </div>
+              <p class="text-muted small mt-2 mb-3 text-truncate">Premium 1-3 BR complexes, optionally packaged with Toyota Fortuner rentals.</p>
+              <div class="property-actions">
+                <a href="property-details.html?id=5" class="btn btn-premium btn-premium-dark">Details</a>
+                <button class="btn btn-premium btn-premium-outline property-share-btn" data-id="5" aria-label="Share listing"><i class="fa-solid fa-share-nodes"></i></button>
+                <a href="https://wa.me/260979894567?text=Hi%20Tuli%20Ma,%20I'm%20interested%20in%20Ibex%20Hill%20Apartments%20and%20Fortuner" target="_blank" class="btn btn-whatsapp"><i class="fa-brands fa-whatsapp"></i> Chat</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Listing 6 -->
+        <div class="col-lg-4 col-md-6 property-listing-item" data-category="rent">
+          <div class="property-card">
+            <div class="property-img-wrapper">
+              <img src="src/property6.jpg" alt="Chamba Valley Apartment" class="property-img" referrerPolicy="no-referrer">
+              <div class="property-badge-group">
+                <span class="property-badge property-badge-status">For Rent</span>
+                <span class="property-badge property-badge-type">Apartment</span>
+              </div>
+              <button class="property-favorite" data-id="prop6" aria-label="Favorite"><i class="fa-regular fa-heart"></i></button>
+            </div>
+            <div class="property-body">
+              <div class="property-price">K19,500 <span class="fs-6 text-muted">/mo</span></div>
+              <h3 class="property-title"><a href="property-details.html?id=6">2 Bedroom Apartment – Chamba Valley</a></h3>
+              <p class="property-location"><i class="fa-solid fa-location-dot me-2 text-green-brand"></i>Kwamwena Police Station area, Chamba Valley</p>
+              <div class="property-features">
+                <span class="feature-item"><i class="fa-solid fa-bed"></i> 2 Bed</span>
+                <span class="feature-item"><i class="fa-solid fa-calendar-day"></i> K1,100 Daily</span>
+                <span class="feature-item"><i class="fa-solid fa-sparkles"></i> Maid Service</span>
+              </div>
+              <p class="text-muted small mt-2 mb-3 text-truncate">Clean, safe 2BR flats just 3 minutes from Kwamwena Police. Daily rates available.</p>
+              <div class="property-actions">
+                <a href="property-details.html?id=6" class="btn btn-premium btn-premium-dark">Details</a>
+                <button class="btn btn-premium btn-premium-outline property-share-btn" data-id="6" aria-label="Share listing"><i class="fa-solid fa-share-nodes"></i></button>
+                <a href="https://wa.me/260979894567?text=Hi%20Tuli%20Ma,%20I'm%20interested%20in%20Chamba%20Valley%20Apartment" target="_blank" class="btn btn-whatsapp"><i class="fa-brands fa-whatsapp"></i> Chat</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Listing 7 -->
+        <div class="col-lg-4 col-md-6 property-listing-item" data-category="rent">
+          <div class="property-card">
+            <div class="property-img-wrapper">
+              <img src="src/property7.jpg" alt="Studio Apartment Ibex Hill" class="property-img" referrerPolicy="no-referrer">
+              <div class="property-badge-group">
+                <span class="property-badge property-badge-status">For Rent</span>
+                <span class="property-badge property-badge-type">Studio Flat</span>
+              </div>
+              <button class="property-favorite" data-id="prop7" aria-label="Favorite"><i class="fa-regular fa-heart"></i></button>
+            </div>
+            <div class="property-body">
+              <div class="property-price">K16,000 <span class="fs-6 text-muted">/mo</span></div>
+              <h3 class="property-title"><a href="property-details.html?id=7">Studio Apartment near American Embassy</a></h3>
+              <p class="property-location"><i class="fa-solid fa-location-dot me-2 text-green-brand"></i>Ibex Hill, Lusaka</p>
+              <div class="property-features">
+                <span class="feature-item"><i class="fa-solid fa-bed"></i> Studio</span>
+                <span class="feature-item"><i class="fa-solid fa-calendar-day"></i> K1,400 Daily</span>
+                <span class="feature-item"><i class="fa-solid fa-broom"></i> Housekeeping</span>
+              </div>
+              <p class="text-muted small mt-2 mb-3 text-truncate">All utilities &amp; bills included studio apartment. Steps from the American Embassy.</p>
+              <div class="property-actions">
+                <a href="property-details.html?id=7" class="btn btn-premium btn-premium-dark">Details</a>
+                <button class="btn btn-premium btn-premium-outline property-share-btn" data-id="7" aria-label="Share listing"><i class="fa-solid fa-share-nodes"></i></button>
+                <a href="https://wa.me/260979894567?text=Hi%20Tuli%20Ma,%20I'm%20interested%20in%20Ibex%20Hill%20Studio" target="_blank" class="btn btn-whatsapp"><i class="fa-brands fa-whatsapp"></i> Chat</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Listing 8 -->
+        <div class="col-lg-4 col-md-6 property-listing-item" data-category="rent">
+          <div class="property-card">
+            <div class="property-img-wrapper">
+              <img src="src/property8.jpg" alt="Longacres Apartments" class="property-img" referrerPolicy="no-referrer">
+              <div class="property-badge-group">
+                <span class="property-badge property-badge-status">For Rent</span>
+                <span class="property-badge property-badge-type">Premium Flat</span>
+              </div>
+              <button class="property-favorite" data-id="prop8" aria-label="Favorite"><i class="fa-regular fa-heart"></i></button>
+            </div>
+            <div class="property-body">
+              <div class="property-price">USD $1,300 <span class="fs-6 text-muted">/mo</span></div>
+              <h3 class="property-title"><a href="property-details.html?id=8">Longacres Apartments near ZICTA</a></h3>
+              <p class="property-location"><i class="fa-solid fa-location-dot me-2 text-green-brand"></i>Longacres, near ZICTA, Lusaka</p>
+              <div class="property-features">
+                <span class="feature-item"><i class="fa-solid fa-bed"></i> 1 Bed</span>
+                <span class="feature-item"><i class="fa-solid fa-percent"></i> Taxes Included</span>
+                <span class="feature-item"><i class="fa-solid fa-shield"></i> Levies Included</span>
+              </div>
+              <p class="text-muted small mt-2 mb-3 text-truncate">High-density premium 1BR apartments in prestigious Longacres. Bills and levies covered.</p>
+              <div class="property-actions">
+                <a href="property-details.html?id=8" class="btn btn-premium btn-premium-dark">Details</a>
+                <button class="btn btn-premium btn-premium-outline property-share-btn" data-id="8" aria-label="Share listing"><i class="fa-solid fa-share-nodes"></i></button>
+                <a href="https://wa.me/260979894567?text=Hi%20Tuli%20Ma,%20I'm%20interested%20in%20Longacres%20Apartments" target="_blank" class="btn btn-whatsapp"><i class="fa-brands fa-whatsapp"></i> Chat</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="pt-5 pb-3">
+    <div class="container">
+      <div class="row g-4 mb-5">
+        <div class="col-lg-4 col-md-6">
+          <div class="mb-4">
+            <a class="navbar-brand d-flex align-items-center text-white p-0" href="index.html">
+              <img src="src/logo.png" alt="Tuli Ma Logo" height="42" class="me-2 rounded shadow-sm bg-white p-1" referrerPolicy="no-referrer">
+              <span>Tuli Ma <span class="text-green-brand">Property</span></span>
+            </a>
+          </div>
+          <p class="text-white-50">Tuli Ma Property Brokers is Lusaka's premier real estate firm, connecting owners with qualified buyers and tenants swiftly under fair brokerage terms.</p>
+          <div class="footer-social-icons mt-4">
+            <a href="https://wa.me/260979894567" target="_blank" class="social-icon-btn" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.facebook.com/TulimaPB" target="_blank" class="social-icon-btn" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/tulimapropertybrokers" target="_blank" class="social-icon-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@tulimapropertybrokers" target="_blank" class="social-icon-btn" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="listings.html">Our Listings</a></li>
+            <li><a href="gallery.html">Photo Gallery</a></li>
+            <li><a href="video.html">Video Walkthrough</a></li>
+            <li><a href="request-listing.html">Request Listing</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h4 class="footer-heading">Our Services</h4>
+          <ul class="footer-links">
+            <li><a href="residential.html">Residential Sales &amp; Leasing</a></li>
+            <li><a href="commercial.html">Commercial &amp; Warehousing</a></li>
+            <li><a href="services.html">Investment &amp; Development</a></li>
+            <li><a href="services.html">Furnished Apartment Rentals</a></li>
+            <li><a href="services.html">Plot &amp; Farm Sales</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h4 class="footer-heading">Broker Information</h4>
+          <p class="text-white-50 m-0 mb-2"><i class="fa-solid fa-user text-green-brand me-2"></i>Kaseya Chabuka (Principal)</p>
+          <p class="text-white-50 m-0 mb-2"><i class="fa-solid fa-phone text-green-brand me-2"></i>+260 979 894 567</p>
+          <p class="text-white-50 m-0 mb-2"><i class="fa-solid fa-envelope text-green-brand me-2"></i>kaseyamc@gmail.com</p>
+          <p class="text-white-50 m-0"><i class="fa-solid fa-location-dot text-green-brand me-2"></i>Lusaka, Zambia</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="row align-items-center">
+          <div class="col-md-6 text-center text-md-start">
+            <p class="m-0 text-white-50 small">&copy; 2021 Tuli Ma Property Brokers. All Rights Reserved.</p>
+          </div>
+          <div class="col-md-6 text-center text-md-end mt-2 mt-md-0">
+            <a href="privacy.html" class="text-white-50 small me-3">Privacy Policy</a>
+            <a href="terms.html" class="text-white-50 small">Terms of Service</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Sticky WhatsApp Button -->
+  <a href="https://wa.me/260979894567" target="_blank" class="whatsapp-sticky" aria-label="Chat on WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

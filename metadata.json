@@ -1,0 +1,6 @@
+{
+  "name": "Tuli Ma Property Brokers",
+  "description": "The Right Place, The Right Price, Every Time. Your Trusted Partner in Real Estate in Lusaka, Zambia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

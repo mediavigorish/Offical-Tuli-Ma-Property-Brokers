@@ -1,0 +1,131 @@
+/* --- Responsive Layout & Typography Overrides --- */
+
+@media (max-width: 1199.98px) {
+  .hero-title {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  :root {
+    --glass-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.05);
+  }
+
+  .hero-slider-section {
+    height: 75vh;
+  }
+
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .search-panel {
+    margin-top: -30px;
+  }
+
+  .glass-search-card {
+    padding: 1.5rem;
+  }
+
+  .nav-link::after {
+    display: none;
+  }
+
+  .nav-link {
+    padding: 0.75rem 1rem !important;
+    border-radius: 6px;
+  }
+
+  .nav-link:hover, .nav-link.active {
+    background-color: rgba(141, 193, 38, 0.08);
+  }
+
+  .navbar-collapse {
+    background: rgba(28, 27, 26, 0.95);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 12px;
+    padding: 1rem;
+    margin-top: 10px;
+    box-shadow: var(--glass-shadow);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+  }
+
+  .stat-card {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 2rem 0;
+  }
+
+  .stat-card:last-child {
+    border-bottom: none;
+  }
+
+  .masonry-grid {
+    flex-direction: column;
+  }
+
+  .masonry-col {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .hero-slider-section {
+    height: auto;
+    padding: 6rem 0 3rem 0;
+  }
+
+  .hero-title {
+    font-size: 2.15rem;
+  }
+
+  .hero-text {
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .search-panel {
+    margin-top: 2rem;
+  }
+
+  .newsletter-card {
+    padding: 2rem;
+  }
+
+  .btn-premium {
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .top-bar {
+    text-align: center;
+  }
+
+  .top-bar .text-end {
+    text-align: center !important;
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .hero-title {
+    font-size: 1.85rem;
+  }
+
+  .page-header {
+    height: 30vh;
+  }
+
+  .property-card {
+    margin-bottom: 15px;
+  }
+
+  .property-actions {
+    flex-direction: column;
+  }
+
+  .property-actions .btn {
+    width: 100%;
+  }
+}

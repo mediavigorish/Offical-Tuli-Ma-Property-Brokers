@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Request Listing | Tuli Ma Property Brokers</title>
+  <meta name="description" content="List your property with Lusaka's leading brokerage firm. Submit your house, plot, warehouse, or apartment details to begin immediate marketing.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar d-none d-md-block">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-7">
+          <span class="me-3"><i class="fa-solid fa-phone text-green-brand me-1"></i> <a href="tel:+260979894567">+260 979 894 567</a></span>
+          <span class="me-3"><i class="fa-solid fa-envelope text-green-brand me-1"></i> <a href="mailto:kaseyamc@gmail.com">kaseyamc@gmail.com</a></span>
+          <span><i class="fa-solid fa-location-dot text-green-brand me-1"></i> Lusaka, Zambia</span>
+        </div>
+        <div class="col-md-5 text-end">
+          <span class="me-2">Follow Us:</span>
+          <a href="https://www.facebook.com/TulimaPB" target="_blank" class="me-2"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/tulimapropertybrokers" target="_blank" class="me-2"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.tiktok.com/@tulimapropertybrokers" target="_blank" class="me-2"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="glass-header sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light py-3">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <img src="src/logo.png" alt="Tuli Ma Logo" height="42" class="me-2 rounded shadow-sm" referrerPolicy="no-referrer">
+          <span>Tuli Ma <span class="text-green-brand">Property</span></span>
+        </a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="listings.html">Listings</a></li>
+            <li class="nav-item"><a class="nav-link" href="commercial.html">Commercial</a></li>
+            <li class="nav-item"><a class="nav-link" href="residential.html">Residential</a></li>
+            <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="video.html">Video</a></li>
+            <li class="nav-item"><a class="nav-link active" href="request-listing.html">Request Listing</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="page-header-bg" style="background-image: url('src/office.jpg');"></div>
+    <div class="container page-header-content text-center">
+      <span class="text-green-brand fw-700 text-uppercase tracking-wider font-sans d-block mb-2">Partner With Us</span>
+      <h1 class="display-4 font-sans fw-800 text-white mb-0">List Your Property</h1>
+    </div>
+  </section>
+
+  <!-- Request Listing Main Form -->
+  <section class="py-5 bg-white">
+    <div class="container max-w-900">
+      
+      <div class="text-center mb-5">
+        <h2 class="font-sans fw-800 text-dark">Submit Your Property Details</h2>
+        <p class="text-muted lead max-w-600 mx-auto">Ready to sell or lease? Put your asset in front of thousands of qualified clients. Fill out our detailed brokerage request form below.</p>
+      </div>
+
+      <div class="glass-card p-4 p-md-5 border-0 bg-light">
+        <form id="request-listing-form" class="tulima-form">
+          
+          <!-- Section 1: Owner Details -->
+          <div class="mb-5">
+            <h3 class="h5 font-sans fw-700 text-dark mb-3 border-bottom pb-2"><i class="fa-solid fa-user-tie text-green-brand me-2"></i>1. Owner / Contact Information</h3>
+            <div class="row g-3">
+              <div class="col-md-6">
+                <div class="mb-3">
+                  <label class="form-label font-sans fw-500 text-xs text-uppercase text-muted">Full Name</label>
+                  <input type="text" class="form-control" placeholder="Chipo Mwansa" required>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="mb-3">
+                  <label class="form-label font-sans fw-500 text-xs text-uppercase text-muted">Contact Phone (WhatsApp Preferred)</label>
+                  <input type="tel" class="form-control" placeholder="+260 9..." required>
+                </div>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label class="form-label font-sans fw-500 text-xs text-uppercase text-muted">Email Address</label>
+              <input type="email" class="form-control" placeholder="chipo@example.com" required>
+            </div>
+          </div>
+
+          <!-- Section 2: Property Parameters -->
+          <div class="mb-5">
+            <h3 class="h5 font-sans fw-700 text-dark mb-3 border-bottom pb-2"><i class="fa-solid fa-house-circle-check text-green-brand me-2"></i>2. Property Specifications</h3>
+            
+            <div class="row g-3">
+              <div class="col-md-6">
+                <div class="mb-3">
+                  <label class="form-label font-sans fw-500 text-xs text-uppercase text-muted">Property Title/Name</label>
+                  <input type="text" class="form-control" placeholder="Executive 3BR House with Pool" required>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="mb-3">
+                  <label class="form-label font-sans fw-500 text-xs text-uppercase text-muted">Zoning Category</label>
+                  <select class="form-select" required>
+                    <option value="" disabled selected>Select Category</option>
+                    <option value="residential-sale">Residential For Sale</option>
+                    <option value="residential-rent">Residential For Rent</option>
+                    <option value="furnished-rent">Furnished Rental Flat</option>
+                    <option value="commercial-office">Commercial Office Space</option>
+                    <option value="commercial-warehouse">Commercial Warehouse</option>
+                    <option value="plot-sale">Land Plot For Sale</option>
+                    <option value="farm-sale">Farm Plot For Sale</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="row g-3">
+              <div class="col-md-6">
+                <div class="mb-3">
+                  <label class="form-label font-sans fw-500 text-xs text-uppercase text-muted">Desired Pricing (ZMW K / USD $)</label>
+                  <input type="text" class="form-control" placeholder="K25,000 monthly / USD $300,000" required>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="mb-3">
+                  <label class="form-label font-sans fw-500 text-xs text-uppercase text-muted">Location / Neighborhood</label>
+                  <input type="text" class="form-control" placeholder="Ibex Hill, Leopards Hill, Lilayi, etc." required>
+                </div>
+              </div>
+            </div>
+
+            <div class="row g-3">
+              <div class="col-md-4">
+                <div class="mb-3">
+                  <label class="form-label font-sans fw-500 text-xs text-uppercase text-muted">Bedrooms</label>
+                  <input type="number" class="form-control" placeholder="3" min="0">
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="mb-3">
+                  <label class="form-label font-sans fw-500 text-xs text-uppercase text-muted">Bathrooms</label>
+                  <input type="number" class="form-control" placeholder="2" min="0">
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="mb-3">
+                  <label class="form-label font-sans fw-500 text-xs text-uppercase text-muted">Plot Size (e.g. 30x30m)</label>
+                  <input type="text" class="form-control" placeholder="1050 sqm">
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label font-sans fw-500 text-xs text-uppercase text-muted">Detailed Description &amp; Special Features</label>
+              <textarea class="form-control" rows="4" placeholder="List backup systems (solar, genset), borehole, secure fence parameters, security patrols, modern fittings..." required></textarea>
+            </div>
+          </div>
+
+          <!-- Section 3: File Attachment Drag & Drop -->
+          <div class="mb-5">
+            <h3 class="h5 font-sans fw-700 text-dark mb-3 border-bottom pb-2"><i class="fa-solid fa-images text-green-brand me-2"></i>3. Property Images &amp; Documents</h3>
+            <p class="text-muted small mb-3">Attach clean photos, title deed scan copies, layout drafts or video walk-through clips. Drop files below or click to select manually.</p>
+            
+            <div id="drag-drop-zone" class="upload-zone text-center p-5 rounded-3 border-2 border-dashed bg-white">
+              <i class="fa-solid fa-cloud-arrow-up text-green-brand display-5 mb-3"></i>
+              <h4 class="h6 font-sans fw-700 text-dark mb-1">Drag and Drop files here</h4>
+              <p class="text-muted small mb-3">or click to browse from local device storage</p>
+              <input type="file" id="file-uploader-input" class="d-none" multiple>
+              <button type="button" class="btn btn-premium btn-premium-outline py-2 px-4 text-xs font-sans fw-600" id="file-uploader-trigger">Choose Files</button>
+              <div id="upload-files-preview" class="row g-2 mt-4 text-start"></div>
+            </div>
+          </div>
+
+          <!-- Section 4: Terms Consent & Submit -->
+          <div class="mb-4">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="consent-checkbox" required>
+              <label class="form-check-label text-muted small" for="consent-checkbox">
+                I hereby declare that I am the legal owner or authorized representative of this property, and authorize Tuli Ma Property Brokers to review and verify all listed information.
+              </label>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-premium btn-premium-green w-100 py-3 font-sans fw-700">Submit Listing To Broker</button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="pt-5 pb-3">
+    <div class="container">
+      <div class="row g-4 mb-5">
+        <div class="col-lg-4 col-md-6">
+          <div class="mb-4">
+            <a class="navbar-brand d-flex align-items-center text-white p-0" href="index.html">
+              <img src="src/logo.png" alt="Tuli Ma Logo" height="42" class="me-2 rounded shadow-sm bg-white p-1" referrerPolicy="no-referrer">
+              <span>Tuli Ma <span class="text-green-brand">Property</span></span>
+            </a>
+          </div>
+          <p class="text-white-50">Tuli Ma Property Brokers is Lusaka's premier real estate firm, connecting owners with qualified buyers and tenants swiftly under fair brokerage terms.</p>
+          <div class="footer-social-icons mt-4">
+            <a href="https://wa.me/260979894567" target="_blank" class="social-icon-btn" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.facebook.com/TulimaPB" target="_blank" class="social-icon-btn" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/tulimapropertybrokers" target="_blank" class="social-icon-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@tulimapropertybrokers" target="_blank" class="social-icon-btn" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="listings.html">Our Listings</a></li>
+            <li><a href="gallery.html">Photo Gallery</a></li>
+            <li><a href="video.html">Video Walkthrough</a></li>
+            <li><a href="request-listing.html">Request Listing</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h4 class="footer-heading">Our Services</h4>
+          <ul class="footer-links">
+            <li><a href="residential.html">Residential Sales &amp; Leasing</a></li>
+            <li><a href="commercial.html">Commercial &amp; Warehousing</a></li>
+            <li><a href="services.html">Investment &amp; Development</a></li>
+            <li><a href="services.html">Furnished Apartment Rentals</a></li>
+            <li><a href="services.html">Plot &amp; Farm Sales</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h4 class="footer-heading">Broker Information</h4>
+          <p class="text-white-50 m-0 mb-2"><i class="fa-solid fa-user text-green-brand me-2"></i>Kaseya Chabuka (Principal)</p>
+          <p class="text-white-50 m-0 mb-2"><i class="fa-solid fa-phone text-green-brand me-2"></i>+260 979 894 567</p>
+          <p class="text-white-50 m-0 mb-2"><i class="fa-solid fa-envelope text-green-brand me-2"></i>kaseyamc@gmail.com</p>
+          <p class="text-white-50 m-0"><i class="fa-solid fa-location-dot text-green-brand me-2"></i>Lusaka, Zambia</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="row align-items-center">
+          <div class="col-md-6 text-center text-md-start">
+            <p class="m-0 text-white-50 small">&copy; 2021 Tuli Ma Property Brokers. All Rights Reserved.</p>
+          </div>
+          <div class="col-md-6 text-center text-md-end mt-2 mt-md-0">
+            <a href="privacy.html" class="text-white-50 small me-3">Privacy Policy</a>
+            <a href="terms.html" class="text-white-50 small">Terms of Service</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Sticky WhatsApp Button -->
+  <a href="https://wa.me/260979894567" target="_blank" class="whatsapp-sticky" aria-label="Chat on WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const dropZone = document.getElementById('drag-drop-zone');
+      const fileInput = document.getElementById('file-uploader-input');
+      const triggerBtn = document.getElementById('file-uploader-trigger');
+      const previewContainer = document.getElementById('upload-files-preview');
+
+      // Trigger standard file click
+      triggerBtn.addEventListener('click', () => {
+        fileInput.click();
+      });
+
+      // Drag and drop events
+      ['dragenter', 'dragover'].forEach(eventName => {
+        dropZone.addEventListener(eventName, (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          dropZone.style.borderColor = '#8dc126';
+          dropZone.style.backgroundColor = 'rgba(141, 193, 38, 0.05)';
+        }, false);
+      });
+
+      ['dragleave', 'drop'].forEach(eventName => {
+        dropZone.addEventListener(eventName, (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          dropZone.style.borderColor = 'rgba(0,0,0,0.12)';
+          dropZone.style.backgroundColor = '#ffffff';
+        }, false);
+      });
+
+      dropZone.addEventListener('drop', (e) => {
+        const dt = e.dataTransfer;
+        const files = dt.files;
+        handleFiles(files);
+      });
+
+      fileInput.addEventListener('change', (e) => {
+        handleFiles(e.target.files);
+      });
+
+      function handleFiles(files) {
+        Array.from(files).forEach(file => {
+          const reader = new FileReader();
+          
+          reader.onload = function(event) {
+            const fileCol = document.createElement('div');
+            fileCol.className = 'col-6 col-md-3 mt-3';
+            
+            let isImage = file.type.startsWith('image/');
+            let thumbnail = isImage ? event.target.result : 'https://img.icons8.com/color/96/file.png';
+            
+            fileCol.innerHTML = `
+              <div class="card p-2 shadow-xs text-center border">
+                <img src="${thumbnail}" class="mx-auto rounded" style="width: 100%; height: 90px; object-fit: cover;" alt="Attachment Preview" referrerPolicy="no-referrer">
+                <div class="text-truncate small text-muted mt-2" style="font-size: 0.75rem;">${file.name}</div>
+                <button type="button" class="btn btn-danger btn-sm py-1 mt-2 text-xs remove-file-btn" style="font-size: 0.7rem;">Delete</button>
+              </div>
+            `;
+            
+            previewContainer.appendChild(fileCol);
+            
+            // Delete attachment hook
+            fileCol.querySelector('.remove-file-btn').addEventListener('click', () => {
+              fileCol.remove();
+            });
+          };
+          
+          if (file.type.startsWith('image/')) {
+            reader.readAsDataURL(file);
+          } else {
+            // Read as dummy text for file validation trigger
+            reader.readAsText(file.slice(0, 1000));
+          }
+        });
+      }
+    });
+  </script>
+</body>
+</html>

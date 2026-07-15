@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Walkthrough | Tuli Ma Property Brokers</title>
+  <meta name="description" content="Watch professional video walkthroughs and educational content explaining the key distinctions between commercial and residential real estate in Zambia.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar d-none d-md-block">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-7">
+          <span class="me-3"><i class="fa-solid fa-phone text-green-brand me-1"></i> <a href="tel:+260979894567">+260 979 894 567</a></span>
+          <span class="me-3"><i class="fa-solid fa-envelope text-green-brand me-1"></i> <a href="mailto:kaseyamc@gmail.com">kaseyamc@gmail.com</a></span>
+          <span><i class="fa-solid fa-location-dot text-green-brand me-1"></i> Lusaka, Zambia</span>
+        </div>
+        <div class="col-md-5 text-end">
+          <span class="me-2">Follow Us:</span>
+          <a href="https://www.facebook.com/TulimaPB" target="_blank" class="me-2"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/tulimapropertybrokers" target="_blank" class="me-2"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.tiktok.com/@tulimapropertybrokers" target="_blank" class="me-2"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="glass-header sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light py-3">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <img src="src/logo.png" alt="Tuli Ma Logo" height="42" class="me-2 rounded shadow-sm" referrerPolicy="no-referrer">
+          <span>Tuli Ma <span class="text-green-brand">Property</span></span>
+        </a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="listings.html">Listings</a></li>
+            <li class="nav-item"><a class="nav-link" href="commercial.html">Commercial</a></li>
+            <li class="nav-item"><a class="nav-link" href="residential.html">Residential</a></li>
+            <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link active" href="video.html">Video</a></li>
+            <li class="nav-item"><a class="nav-link" href="request-listing.html">Request Listing</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="page-header-bg" style="background-image: url('src/hero.jpg');"></div>
+    <div class="container page-header-content text-center">
+      <span class="text-green-brand fw-700 text-uppercase tracking-wider font-sans d-block mb-2">Media Center</span>
+      <h1 class="display-4 font-sans fw-800 text-white mb-0">Video Walkthroughs</h1>
+    </div>
+  </section>
+
+  <!-- Custom Video Player Section -->
+  <section class="py-5 bg-white">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          
+          <div class="text-center mb-5">
+            <span class="text-green-brand fw-700 text-uppercase tracking-wider font-sans">Educational Insight</span>
+            <h2 class="font-sans fw-800 text-dark">Commercial vs. Residential Real Estate</h2>
+            <p class="text-muted small">Learn more about the distinct dynamics, rules and yields governing the different sectors of the Zambian market.</p>
+          </div>
+
+          <!-- Custom HTML5 Premium Video Player -->
+          <div class="custom-video-container mb-4">
+            <!-- Big play overlay -->
+            <div class="video-play-overlay" aria-label="Play video"><i class="fa-solid fa-play"></i></div>
+            
+            <video class="custom-video-element" src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4" playsinline preload="metadata" aria-label="Video presentation"></video>
+            
+            <div class="video-controls">
+              <!-- Progress bar -->
+              <div class="video-progress-bar">
+                <div class="video-progress-filled"></div>
+              </div>
+              <div class="video-buttons-row">
+                <div class="video-left-controls">
+                  <button class="video-ctrl-btn" id="video-play" aria-label="Play or pause"><i class="fa-solid fa-play"></i></button>
+                  <button class="video-ctrl-btn" id="video-mute" aria-label="Mute or unmute"><i class="fa-solid fa-volume-high"></i></button>
+                  <input type="range" class="video-volume-slider" min="0" max="1" step="0.05" value="1" aria-label="Volume slider">
+                  <span class="video-time">
+                    <span id="video-time-current">0:00</span> / <span id="video-time-total">0:00</span>
+                  </span>
+                </div>
+                <div class="video-right-controls">
+                  <button class="video-ctrl-btn" id="video-fullscreen" aria-label="Fullscreen toggle"><i class="fa-solid fa-expand"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Video Caption Section -->
+          <div class="glass-card p-4 border-0 bg-light">
+            <h3 class="h4 font-sans fw-700 text-dark mb-3">Commercial vs. Residential Real Estate: Unveiling the Distinctions</h3>
+            <p class="text-muted" style="line-height: 1.7; font-size: 0.95rem;">
+              Commercial real estate encompasses properties and spaces primarily used for business activities, such as offices, retail stores, industrial complexes, and hotels. Unlike residential real estate, which is designed for personal living, commercial properties are intended for generating income through rent or capital appreciation. Understanding the contrast between the two is key to successful investing and property management.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="pt-5 pb-3">
+    <div class="container">
+      <div class="row g-4 mb-5">
+        <div class="col-lg-4 col-md-6">
+          <div class="mb-4">
+            <a class="navbar-brand d-flex align-items-center text-white p-0" href="index.html">
+              <img src="src/logo.png" alt="Tuli Ma Logo" height="42" class="me-2 rounded shadow-sm bg-white p-1" referrerPolicy="no-referrer">
+              <span>Tuli Ma <span class="text-green-brand">Property</span></span>
+            </a>
+          </div>
+          <p class="text-white-50">Tuli Ma Property Brokers is Lusaka's premier real estate firm, connecting owners with qualified buyers and tenants swiftly under fair brokerage terms.</p>
+          <div class="footer-social-icons mt-4">
+            <a href="https://wa.me/260979894567" target="_blank" class="social-icon-btn" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.facebook.com/TulimaPB" target="_blank" class="social-icon-btn" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/tulimapropertybrokers" target="_blank" class="social-icon-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@tulimapropertybrokers" target="_blank" class="social-icon-btn" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="listings.html">Our Listings</a></li>
+            <li><a href="gallery.html">Photo Gallery</a></li>
+            <li><a href="video.html">Video Walkthrough</a></li>
+            <li><a href="request-listing.html">Request Listing</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h4 class="footer-heading">Our Services</h4>
+          <ul class="footer-links">
+            <li><a href="residential.html">Residential Sales &amp; Leasing</a></li>
+            <li><a href="commercial.html">Commercial &amp; Warehousing</a></li>
+            <li><a href="services.html">Investment &amp; Development</a></li>
+            <li><a href="services.html">Furnished Apartment Rentals</a></li>
+            <li><a href="services.html">Plot &amp; Farm Sales</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h4 class="footer-heading">Broker Information</h4>
+          <p class="text-white-50 m-0 mb-2"><i class="fa-solid fa-user text-green-brand me-2"></i>Kaseya Chabuka (Principal)</p>
+          <p class="text-white-50 m-0 mb-2"><i class="fa-solid fa-phone text-green-brand me-2"></i>+260 979 894 567</p>
+          <p class="text-white-50 m-0 mb-2"><i class="fa-solid fa-envelope text-green-brand me-2"></i>kaseyamc@gmail.com</p>
+          <p class="text-white-50 m-0"><i class="fa-solid fa-location-dot text-green-brand me-2"></i>Lusaka, Zambia</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="row align-items-center">
+          <div class="col-md-6 text-center text-md-start">
+            <p class="m-0 text-white-50 small">&copy; 2021 Tuli Ma Property Brokers. All Rights Reserved.</p>
+          </div>
+          <div class="col-md-6 text-center text-md-end mt-2 mt-md-0">
+            <a href="privacy.html" class="text-white-50 small me-3">Privacy Policy</a>
+            <a href="terms.html" class="text-white-50 small">Terms of Service</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Sticky WhatsApp Button -->
+  <a href="https://wa.me/260979894567" target="_blank" class="whatsapp-sticky" aria-label="Chat on WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
